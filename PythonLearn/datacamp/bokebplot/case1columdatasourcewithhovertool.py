@@ -11,6 +11,7 @@ source = ColumnDataSource(data={
 })
 
 # Create the figure: p
+# try changes
 p = figure(title='1970', x_axis_label='Fertility (children per woman)', y_axis_label='Life Expectancy (years)',
            plot_height=400, plot_width=700,
            tools=[HoverTool(tooltips='@country')])
