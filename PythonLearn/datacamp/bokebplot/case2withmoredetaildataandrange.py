@@ -4,6 +4,7 @@ from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure
 
 # Make the ColumnDataSource: source
+# add comment
 source = ColumnDataSource(data={
     'x'       : data.loc[1970].fertility,
     'y'       : data.loc[1970].life,
